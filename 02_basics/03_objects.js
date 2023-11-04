@@ -21,9 +21,15 @@ console.log(JsUser["email"]);
 console.log(JsUser["name"]);
 console.log(typeof(JsUser.mySym));
 
+<<<<<<< HEAD
 JsUser.email = "prajwal@chatgpt.com"
 Object.freeze(JsUser)
 JsUser.email = "prajwal@microsoft.com"
+=======
+JSUSer.email = "hitesh@chatgpt.com"
+Object.freeze(JsUser)
+JSUSer.email = "hitesh@microsoft.com"
+>>>>>>> origin/main
 console.log(JsUser)
 
 
