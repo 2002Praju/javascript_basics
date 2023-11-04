@@ -3,7 +3,7 @@
 
 
 // object literals
-const muSym = Symbol("key1")
+const mySym = Symbol("key1")
 
 
 const JsUser = {
