@@ -1,0 +1,54 @@
+
+function sayMyName(){
+    console.log("P");
+    console.log("R");
+    console.log("A");
+    console.log("J");
+    console.log("W");
+    console.log("A");
+    console.log("L");
+}
+
+sayMyName()
+
+function addTwoNumbers(number1, number2){
+    console.log(number1 + number2);
+}
+
+addTwoNumbers(3, "a")
+addTwoNumbers(3, null)
+
+
+function addTwoNumbers(number1, number2){
+    
+    let result = number1 + number2
+    return result
+    return number1 + number2
+}
+
+const result = addTwoNumbers(3, 5)
+
+console.log("Result: ", result);
+
+
+function loginUserMessage(username ){
+    if(username === undefined){
+        console.log("please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+//for default name where value is already defined
+function loginUserMessage(username = "sam" ){
+    if(username === undefined){
+        console.log("please enter a username");
+        return
+    }
+    return `${username} just logged in`
+}
+
+
+loginUserMessage("prajwal")
+console.log(loginUserMessage("prajwal"))
+console.log(loginUserMessage())
